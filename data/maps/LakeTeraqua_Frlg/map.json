@@ -1,8 +1,8 @@
 {
-  "id": "MAP_SEVEN_ISLAND_SEVAULT_CANYON",
-  "name": "SevenIsland_SevaultCanyon_Frlg",
-  "layout": "LAYOUT_SEVEN_ISLAND_SEVAULT_CANYON",
-  "music": "MUS_RG_SEVII_ROUTE",
+  "id": "MAP_LAKE_TERAQUA_FRLG",
+  "name": "LakeTeraqua_Frlg",
+  "layout": "LAYOUT_LAKE_TERAQUA_FRLG",
+  "music": "MUS_RG_PALLET",
   "region_map_section": "MAPSEC_LAKE_TERAQUA",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -13,13 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [
-    {
-      "map": "MAP_PALLET_TOWN",
-      "offset": 0,
-      "direction": "down"
-    }
-  ],
+  "connections": null,
   "object_events": [],
   "warp_events": [],
   "coord_events": [],

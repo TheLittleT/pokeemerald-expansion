@@ -1740,3 +1740,12 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 
 	.include "data/maps/LakeTeraqua/scripts.inc"
 	.include "data/maps/LakeTeraqua/text.inc"
+
+	.include "data/maps/LakeTeraqua_Frlg/scripts.inc"
+	.include "data/maps/LakeTeraqua_Frlg/text.inc"
+
+	.include "data/maps/Test/scripts.inc"
+	.include "data/maps/Test/text.inc"
+
+	.include "data/maps/TES_/scripts.inc"
+	.include "data/maps/TES_/text.inc"
