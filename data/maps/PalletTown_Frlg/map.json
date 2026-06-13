@@ -18,6 +18,11 @@
       "map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON",
       "offset": 0,
       "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE1",
+      "offset": -22,
+      "direction": "down"
     }
   ],
   "object_events": [
