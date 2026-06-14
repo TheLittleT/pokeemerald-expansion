@@ -8091,7 +8091,7 @@
       "id": "LAYOUT_ROUTE2_ENTRANCE",
       "name": "Route2_Entrance_Layout",
       "width": 15,
-      "height": 12,
+      "height": 18,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_BuildingFrlg",
