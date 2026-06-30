@@ -64,3 +64,21 @@ Route1_Text_RouteSign::
 	.string "PALLET TOWN - VIRIDIAN CITY$"
 
 `
+text Route1_Text_JoeyIntro{
+	"My Rattata is different from regular\n"
+	" Rattata. It’s like my Rattata is in the\p"
+	"top percentage of all Rattata.$"
+}
+text Route1_Text_JoeyDefeat{
+	"Oh... looks like I need to train more.$"
+}
+text Route1_Text_JoeyPostBattle{
+	"Next time you'll see me, me and my Rattata\n"
+	"will be much stronger.$"
+}
+script Route1_EventScript_JoeyBattle {
+	trainerbattle_single(TRAINER_YOUNGSTER_JOEY, Route1_Text_JoeyIntro, Route1_Text_JoeyDefeat)
+	msgbox(Route1_Text_JoeyPostBattle, MSGBOX_AUTOCLOSE)
+	waitmessage
+	end
+}

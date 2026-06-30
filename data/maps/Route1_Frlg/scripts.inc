@@ -126,3 +126,28 @@ Route1_Text_RouteSign::
 	.string "ROUTE 1\n"
 # 64 "data/maps/Route1_Frlg/scripts.pory"
 	.string "PALLET TOWN - VIRIDIAN CITY$"
+
+Route1_EventScript_JoeyBattle::
+# 80 "data/maps/Route1_Frlg/scripts.pory"
+	trainerbattle_single TRAINER_YOUNGSTER_JOEY, Route1_Text_JoeyIntro, Route1_Text_JoeyDefeat
+# 81 "data/maps/Route1_Frlg/scripts.pory"
+	msgbox Route1_Text_JoeyPostBattle, MSGBOX_AUTOCLOSE
+# 82 "data/maps/Route1_Frlg/scripts.pory"
+	waitmessage
+	end
+
+
+Route1_Text_JoeyIntro::
+# 67 "data/maps/Route1_Frlg/scripts.pory"
+	.string "My Rattata is different from regular\n"
+	.string " Rattata. It’s like my Rattata is in the\p"
+	.string "top percentage of all Rattata.$"
+
+Route1_Text_JoeyDefeat::
+# 72 "data/maps/Route1_Frlg/scripts.pory"
+	.string "Oh... looks like I need to train more.$"
+
+Route1_Text_JoeyPostBattle::
+# 75 "data/maps/Route1_Frlg/scripts.pory"
+	.string "Next time you'll see me, me and my Rattata\n"
+	.string "will be much stronger.$"

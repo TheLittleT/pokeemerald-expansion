@@ -6,8 +6,8 @@ Gender: Male
 Music: Male
 Double Battle: No
 
-=== TRAINER_YOUNGSTER_BEN ===
-Name: BEN
+=== TRAINER_YOUNGSTER_JOEY ===
+Name: JOEY
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
@@ -16,11 +16,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Rattata
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Ekans
-Level: 11
+Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_YOUNGSTER_CALVIN ===
@@ -74,8 +70,8 @@ Ekans
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_YOUNGSTER_JOEY ===
-Name: JOEY
+=== TRAINER_YOUNGSTER_BEN ===
+Name: BEN
 Class: Youngster Frlg
 Pic: Youngster Frlg
 Gender: Male
