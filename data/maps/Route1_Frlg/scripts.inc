@@ -137,10 +137,50 @@ Route1_EventScript_JoeyBattle::
 	end
 
 
+Route1_EventScript_SallyBattle::
+# 99 "data/maps/Route1_Frlg/scripts.pory"
+	trainerbattle_single TRAINER_LASS_SALLY, Route1_Text_SallyIntro, Route1_Text_SallyDefeat
+# 100 "data/maps/Route1_Frlg/scripts.pory"
+	msgbox Route1_Text_SallyPostBattle, MSGBOX_AUTOCLOSE
+# 101 "data/maps/Route1_Frlg/scripts.pory"
+	waitmessage
+	end
+
+
+Route1_EventScript_KevinBattle::
+# 116 "data/maps/Route1_Frlg/scripts.pory"
+	trainerbattle_single TRAINER_CAMPER_KEVIN, Route1_Text_KevinIntro, Route1_Text_KevinDefeat
+# 117 "data/maps/Route1_Frlg/scripts.pory"
+	msgbox Route1_Text_KevinPostBattle, MSGBOX_AUTOCLOSE
+# 118 "data/maps/Route1_Frlg/scripts.pory"
+	waitmessage
+	end
+
+
+Route1_EventScript_JamesBattle::
+# 133 "data/maps/Route1_Frlg/scripts.pory"
+	trainerbattle_single TRAINER_FISHERMAN_JAMES, Route1_Text_JamesIntro, Route1_Text_JamesDefeat
+# 134 "data/maps/Route1_Frlg/scripts.pory"
+	msgbox Route1_Text_JamesPostBattle, MSGBOX_AUTOCLOSE
+# 135 "data/maps/Route1_Frlg/scripts.pory"
+	waitmessage
+	end
+
+
+Route1_EventScript_SalBattle::
+# 149 "data/maps/Route1_Frlg/scripts.pory"
+	trainerbattle_single TRAINER_LASS_SAL, Route1_Text_SalIntro, Route1_Text_SalDefeat
+# 150 "data/maps/Route1_Frlg/scripts.pory"
+	msgbox Route1_Text_SalPostBattle, MSGBOX_AUTOCLOSE
+# 151 "data/maps/Route1_Frlg/scripts.pory"
+	waitmessage
+	end
+
+
 Route1_Text_JoeyIntro::
 # 67 "data/maps/Route1_Frlg/scripts.pory"
 	.string "My Rattata is different from regular\n"
-	.string " Rattata. It’s like my Rattata is in the\p"
+	.string "Rattata. It’s like my Rattata is in the\p"
 	.string "top percentage of all Rattata.$"
 
 Route1_Text_JoeyDefeat::
@@ -151,3 +191,58 @@ Route1_Text_JoeyPostBattle::
 # 75 "data/maps/Route1_Frlg/scripts.pory"
 	.string "Next time you'll see me, me and my Rattata\n"
 	.string "will be much stronger.$"
+
+Route1_Text_SallyIntro::
+# 86 "data/maps/Route1_Frlg/scripts.pory"
+	.string "Look at this cute bird Pokemon I caught\p"
+	.string "Huh, Battle?$"
+
+Route1_Text_SallyDefeat::
+# 90 "data/maps/Route1_Frlg/scripts.pory"
+	.string "Didn't expect a battle this soon after\n"
+	.string "catching a Pokemon.\p"
+	.string "Huh, give money?$"
+
+Route1_Text_SallyPostBattle::
+# 95 "data/maps/Route1_Frlg/scripts.pory"
+	.string "I'm never battling again.$"
+
+Route1_Text_KevinIntro::
+# 105 "data/maps/Route1_Frlg/scripts.pory"
+	.string "You can't beat me, I have 2 Pokemon!$"
+
+Route1_Text_KevinDefeat::
+# 108 "data/maps/Route1_Frlg/scripts.pory"
+	.string "You beat me...$"
+
+Route1_Text_KevinPostBattle::
+# 111 "data/maps/Route1_Frlg/scripts.pory"
+	.string "Looks I need to catch more Pokemon\p"
+	.string "Then I'll be unstoppable!$"
+
+Route1_Text_JamesIntro::
+# 121 "data/maps/Route1_Frlg/scripts.pory"
+	.string "I love to fish, don't you too?$"
+
+Route1_Text_JamesDefeat::
+# 124 "data/maps/Route1_Frlg/scripts.pory"
+	.string "I expected a little bit more\n"
+	.string "struggle...$"
+
+Route1_Text_JamesPostBattle::
+# 128 "data/maps/Route1_Frlg/scripts.pory"
+	.string "When your Pokemon runs out of PP\p"
+	.string "They struggle.$"
+
+Route1_Text_SalIntro::
+# 138 "data/maps/Route1_Frlg/scripts.pory"
+	.string "Fairy Pokemon are my favorite!$"
+
+Route1_Text_SalDefeat::
+# 141 "data/maps/Route1_Frlg/scripts.pory"
+	.string "Audino isn't fairy type?$\n$"
+
+Route1_Text_SalPostBattle::
+# 144 "data/maps/Route1_Frlg/scripts.pory"
+	.string "I heard that it can become a fairy\p"
+	.string "maybe through evolution?$"

@@ -179,52 +179,30 @@ Route3_Text_CalvinPostBattle::
 # 90 "data/maps/Route3_Frlg/scripts.pory"
 
 # 91 "data/maps/Route3_Frlg/scripts.pory"
-Route3_Text_JamesIntro::
+Route3_Text_RobinIntro::
 # 92 "data/maps/Route3_Frlg/scripts.pory"
-	.string "I'll battle you with the POKéMON\n"
+	.string "Eek!\n"
 # 93 "data/maps/Route3_Frlg/scripts.pory"
-	.string "I just caught.$"
+	.string "Did you touch me?$"
 # 94 "data/maps/Route3_Frlg/scripts.pory"
 
 # 95 "data/maps/Route3_Frlg/scripts.pory"
-Route3_Text_JamesDefeat::
+Route3_Text_RobinDefeat::
 # 96 "data/maps/Route3_Frlg/scripts.pory"
-	.string "Done like dinner!$"
+	.string "That's it?$"
 # 97 "data/maps/Route3_Frlg/scripts.pory"
 
 # 98 "data/maps/Route3_Frlg/scripts.pory"
-Route3_Text_JamesPostBattle::
+Route3_Text_RobinPostBattle::
 # 99 "data/maps/Route3_Frlg/scripts.pory"
-	.string "Trained POKéMON are stronger than\n"
+	.string "ROUTE 4 is at the foot of\n"
 # 100 "data/maps/Route3_Frlg/scripts.pory"
-	.string "the wild ones.$"
+	.string "MT. MOON.$"
 # 101 "data/maps/Route3_Frlg/scripts.pory"
 
 # 102 "data/maps/Route3_Frlg/scripts.pory"
-Route3_Text_RobinIntro::
-# 103 "data/maps/Route3_Frlg/scripts.pory"
-	.string "Eek!\n"
-# 104 "data/maps/Route3_Frlg/scripts.pory"
-	.string "Did you touch me?$"
-# 105 "data/maps/Route3_Frlg/scripts.pory"
-
-# 106 "data/maps/Route3_Frlg/scripts.pory"
-Route3_Text_RobinDefeat::
-# 107 "data/maps/Route3_Frlg/scripts.pory"
-	.string "That's it?$"
-# 108 "data/maps/Route3_Frlg/scripts.pory"
-
-# 109 "data/maps/Route3_Frlg/scripts.pory"
-Route3_Text_RobinPostBattle::
-# 110 "data/maps/Route3_Frlg/scripts.pory"
-	.string "ROUTE 4 is at the foot of\n"
-# 111 "data/maps/Route3_Frlg/scripts.pory"
-	.string "MT. MOON.$"
-# 112 "data/maps/Route3_Frlg/scripts.pory"
-
-# 113 "data/maps/Route3_Frlg/scripts.pory"
 Route3_Text_RouteSign::
-# 114 "data/maps/Route3_Frlg/scripts.pory"
+# 103 "data/maps/Route3_Frlg/scripts.pory"
 	.string "ROUTE 3\n"
-# 115 "data/maps/Route3_Frlg/scripts.pory"
+# 104 "data/maps/Route3_Frlg/scripts.pory"
 	.string "MT. MOON AHEAD$"

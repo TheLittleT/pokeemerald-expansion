@@ -45,19 +45,7 @@ Route3_EventScript_GregRematch::
 	trainerbattle_rematch TRAINER_BUG_CATCHER_GREG, Route3_Text_GregRematchIntro, Route3_Text_GregDefeat
 	msgbox Route3_Text_GregPostBattle, MSGBOX_AUTOCLOSE
 	end
-
-Route3_EventScript_James::
-	trainerbattle_single TRAINER_BUG_CATCHER_JAMES, Route3_Text_JamesIntro, Route3_Text_JamesDefeat
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route3_EventScript_JamesRematch
-	msgbox Route3_Text_JamesPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route3_EventScript_JamesRematch::
-	trainerbattle_rematch TRAINER_BUG_CATCHER_JAMES, Route3_Text_JamesRematchIntro, Route3_Text_JamesDefeat
-	msgbox Route3_Text_JamesPostBattle, MSGBOX_AUTOCLOSE
-	end
-
+	
 Route3_EventScript_Janice::
 	trainerbattle_single TRAINER_LASS_JANICE, Route3_Text_JaniceIntro, Route3_Text_JaniceDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle

@@ -66,7 +66,7 @@ Route1_Text_RouteSign::
 `
 text Route1_Text_JoeyIntro{
 	"My Rattata is different from regular\n"
-	" Rattata. It’s like my Rattata is in the\p"
+	"Rattata. It’s like my Rattata is in the\p"
 	"top percentage of all Rattata.$"
 }
 text Route1_Text_JoeyDefeat{
@@ -79,6 +79,75 @@ text Route1_Text_JoeyPostBattle{
 script Route1_EventScript_JoeyBattle {
 	trainerbattle_single(TRAINER_YOUNGSTER_JOEY, Route1_Text_JoeyIntro, Route1_Text_JoeyDefeat)
 	msgbox(Route1_Text_JoeyPostBattle, MSGBOX_AUTOCLOSE)
+	waitmessage
+	end
+}
+
+text Route1_Text_SallyIntro{
+	"Look at this cute bird Pokemon I caught\p"
+	"Huh, Battle?$"
+}
+text Route1_Text_SallyDefeat{
+	"Didn't expect a battle this soon after\n"
+	"catching a Pokemon.\p"
+	"Huh, give money?$"
+}
+text Route1_Text_SallyPostBattle{
+	"I'm never battling again.$"
+}
+script Route1_EventScript_SallyBattle {
+	trainerbattle_single(TRAINER_LASS_SALLY, Route1_Text_SallyIntro, Route1_Text_SallyDefeat)
+	msgbox(Route1_Text_SallyPostBattle, MSGBOX_AUTOCLOSE)
+	waitmessage
+	end
+}
+
+text Route1_Text_KevinIntro{
+	"You can't beat me, I have 2 Pokemon!$"
+}
+text Route1_Text_KevinDefeat{
+	"You beat me...$"
+}
+text Route1_Text_KevinPostBattle{
+	"Looks I need to catch more Pokemon\p"
+	"Then I'll be unstoppable!$"
+}
+script Route1_EventScript_KevinBattle {
+	trainerbattle_single(TRAINER_CAMPER_KEVIN, Route1_Text_KevinIntro, Route1_Text_KevinDefeat)
+	msgbox(Route1_Text_KevinPostBattle, MSGBOX_AUTOCLOSE)
+	waitmessage
+	end
+}
+text Route1_Text_JamesIntro{
+	"I love to fish, don't you too?$"
+}
+text Route1_Text_JamesDefeat{
+	"I expected a little bit more\n"
+	"struggle...$"
+}
+text Route1_Text_JamesPostBattle{
+	"When your Pokemon runs out of PP\p"
+	"They struggle.$"
+}
+script Route1_EventScript_JamesBattle {
+	trainerbattle_single(TRAINER_FISHERMAN_JAMES, Route1_Text_JamesIntro, Route1_Text_JamesDefeat)
+	msgbox(Route1_Text_JamesPostBattle, MSGBOX_AUTOCLOSE)
+	waitmessage
+	end
+}
+text Route1_Text_SalIntro{
+	"Fairy Pokemon are my favorite!$"
+}
+text Route1_Text_SalDefeat{
+	"Audino isn't fairy type?$\n"
+}
+text Route1_Text_SalPostBattle{
+	"I heard that it can become a fairy\p"
+	"Maybe through evolution?$"
+}
+script Route1_EventScript_SalBattle {
+	trainerbattle_single(TRAINER_LASS_SAL, Route1_Text_SalIntro, Route1_Text_SalDefeat)
+	msgbox(Route1_Text_SalPostBattle, MSGBOX_AUTOCLOSE)
 	waitmessage
 	end
 }
