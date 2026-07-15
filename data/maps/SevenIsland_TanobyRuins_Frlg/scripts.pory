@@ -55,3 +55,33 @@ SevenIsland_TanobyRuins_Text_CliffordPostBattle::
 	.string "Yes, you certainly are quite the\n"
 	.string "extraordinary person, indeed.$"
 `
+text FlowerGarden_Text_MaryIntro{
+	"With my partner$"
+}
+text FlowerGarden_Text_MaryDefeat{
+	"Maybe we need$"
+}
+text FlowerGarden_Text_MaryPostBattle{
+	"Together we finish each others$"
+}
+script FlowerGarden_EventScript_MaryBattle {
+	trainerbattle_single(TRAINER_AROMA_LADY_MARY, FlowerGarden_Text_MaryIntro, FlowerGarden_Text_MaryDefeat)
+	msgbox(FlowerGarden_Text_MaryPostBattle, MSGBOX_AUTOCLOSE)
+	waitmessage
+	end
+}
+text FlowerGarden_Text_JoannaIntro{
+	"Anything is possible!$"
+}
+text FlowerGarden_Text_JoannaDefeat{
+	"Some practice$"
+}
+text FlowerGarden_Text_JoannaPostBattle{
+	"Sandwiches$"
+}
+script FlowerGarden_EventScript_JoannaBattle {
+	trainerbattle_single(TRAINER_AROMA_LADY_JOANNA, FlowerGarden_Text_JoannaIntro, FlowerGarden_Text_JoannaDefeat)
+	msgbox(FlowerGarden_Text_JoannaPostBattle, MSGBOX_AUTOCLOSE)
+	waitmessage
+	end
+}

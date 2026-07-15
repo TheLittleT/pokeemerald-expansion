@@ -629,11 +629,13 @@
 #define TRAINER_CUE_BALL_PAXTON                    623
 #define TRAINER_CAMPER_KEVIN                       624
 #define TRAINER_LASS_SAL                           625
+#define TRAINER_AROMA_LADY_MARY                      626
+#define TRAINER_AROMA_LADY_JOANNA                    627
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT_FRLG can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_FRLG                      626
+#define TRAINERS_COUNT_FRLG                      628
 #define MAX_TRAINERS_COUNT_FRLG                  768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_FRLG_H

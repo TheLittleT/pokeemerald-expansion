@@ -110,3 +110,47 @@ SevenIsland_TanobyRuins_Text_CliffordPostBattle::
 	.string "Yes, you certainly are quite the\n"
 # 56 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
 	.string "extraordinary person, indeed.$"
+
+FlowerGarden_EventScript_MaryBattle::
+# 68 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	trainerbattle_single TRAINER_AROMA_LADY_MARY, FlowerGarden_Text_MaryIntro, FlowerGarden_Text_MaryDefeat
+# 69 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	msgbox FlowerGarden_Text_MaryPostBattle, MSGBOX_AUTOCLOSE
+# 70 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	waitmessage
+	end
+
+
+FlowerGarden_EventScript_JoannaBattle::
+# 83 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	trainerbattle_single TRAINER_AROMA_LADY_JOANNA, FlowerGarden_Text_JoannaIntro, FlowerGarden_Text_JoannaDefeat
+# 84 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	msgbox FlowerGarden_Text_JoannaPostBattle, MSGBOX_AUTOCLOSE
+# 85 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	waitmessage
+	end
+
+
+FlowerGarden_Text_MaryIntro::
+# 58 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	.string "With my partner$"
+
+FlowerGarden_Text_MaryDefeat::
+# 61 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	.string "Maybe we need$"
+
+FlowerGarden_Text_MaryPostBattle::
+# 64 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	.string "Together we finish each others$"
+
+FlowerGarden_Text_JoannaIntro::
+# 73 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	.string "Anything is possible!$"
+
+FlowerGarden_Text_JoannaDefeat::
+# 76 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	.string "Some practice$"
+
+FlowerGarden_Text_JoannaPostBattle::
+# 79 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	.string "Sandwiches$"

@@ -189,8 +189,8 @@ Route1_Text_JoeyDefeat::
 
 Route1_Text_JoeyPostBattle::
 # 75 "data/maps/Route1_Frlg/scripts.pory"
-	.string "Next time you'll see me, me and my Rattata\n"
-	.string "will be much stronger.$"
+	.string "Next time you'll see me, me and my\n"
+	.string " Rattata will be much stronger.$"
 
 Route1_Text_SallyIntro::
 # 86 "data/maps/Route1_Frlg/scripts.pory"
@@ -245,4 +245,4 @@ Route1_Text_SalDefeat::
 Route1_Text_SalPostBattle::
 # 144 "data/maps/Route1_Frlg/scripts.pory"
 	.string "I heard that it can become a fairy\p"
-	.string "maybe through evolution?$"
+	.string "Maybe through evolution?$"

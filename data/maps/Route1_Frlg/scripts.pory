@@ -73,8 +73,8 @@ text Route1_Text_JoeyDefeat{
 	"Oh... looks like I need to train more.$"
 }
 text Route1_Text_JoeyPostBattle{
-	"Next time you'll see me, me and my Rattata\n"
-	"will be much stronger.$"
+	"Next time you'll see me, me and my\n"
+	" Rattata will be much stronger.$"
 }
 script Route1_EventScript_JoeyBattle {
 	trainerbattle_single(TRAINER_YOUNGSTER_JOEY, Route1_Text_JoeyIntro, Route1_Text_JoeyDefeat)

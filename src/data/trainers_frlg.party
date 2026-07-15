@@ -13830,3 +13830,29 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Audino
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_AROMA_LADY_MARY ===
+Name: Mary
+Class: Aroma Lady Frlg
+Pic: Aroma Lady Frlg
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Check Bad Move
+
+Flabebe
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_AROMA_LADY_JOANNA ===
+Name: Joanna
+Class: Aroma Lady Frlg
+Pic: Aroma Lady Frlg
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Check Bad Move
+
+Flabebe
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
