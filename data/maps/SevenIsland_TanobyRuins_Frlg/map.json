@@ -23,8 +23,8 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2_FRLG",
-      "x": 6,
+      "graphics_id": "OBJ_EVENT_GFX_AROMA_LADY",
+      "x": 7,
       "y": 32,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -37,8 +37,8 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2_FRLG",
-      "x": 11,
+      "graphics_id": "OBJ_EVENT_GFX_AROMA_LADY",
+      "x": 10,
       "y": 32,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",

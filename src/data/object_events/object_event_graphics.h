@@ -575,6 +575,7 @@ const u16 gObjectEventPic_Lance[] = INCGFX_U16("graphics/object_events/pics/peop
 const u16 gObjectEventPic_GBAKid[] = INCGFX_U16("graphics/object_events/pics/people/gba_kid.png", ".4bpp", "-mwidth 2 -mheight 4");
 const u16 gObjectEventPic_MomFrlg[] = INCGFX_U16("graphics/object_events/pics/people/mom_frlg.png", ".4bpp", "-mwidth 2 -mheight 4");
 const u16 gObjectEventPic_Policeman[] = INCGFX_U16("graphics/object_events/pics/people/policeman.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gObjectEventPic_AromaLady[] = INCGFX_U16("graphics/object_events/pics/people/aroma_lady.png", ".4bpp", "-mwidth 2 -mheight 4");
 
 const u16 gObjectEventPic_CuttableTreeFrlg[] = INCGFX_U16("graphics/object_events/pics/misc/cuttable_tree_frlg.png", ".4bpp", "-mwidth 2 -mheight 2");
 const u32 gObjectEventPic_BreakableRockFrlg[] = INCGFX_U32("graphics/object_events/pics/misc/breakable_rock_frlg.png", ".4bpp", "-mwidth 2 -mheight 2");
