@@ -85,3 +85,19 @@ script FlowerGarden_EventScript_JoannaBattle {
 	waitmessage
 	end
 }
+text FlowerGarden_Text_JeanneIntro{
+	"HEY, no stepping on the flowers$"
+}
+text FlowerGarden_Text_JeanneDefeat{
+	"I'm not stepping on the flowers/n"
+	"You are!$"
+}
+text FlowerGarden_Text_JeannePostBattle{
+	"I'm not a Hypocrite!$"
+}
+script FlowerGarden_EventScript_JeanneBattle {
+	trainerbattle_single(TRAINER_AROMA_LADY_JEANNE, FlowerGarden_Text_JeanneIntro, FlowerGarden_Text_JeanneDefeat)
+	msgbox(FlowerGarden_Text_JeannePostBattle, MSGBOX_AUTOCLOSE)
+	waitmessage
+	end
+}

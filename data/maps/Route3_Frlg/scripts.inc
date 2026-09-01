@@ -177,32 +177,10 @@ Route3_Text_CalvinPostBattle::
 # 89 "data/maps/Route3_Frlg/scripts.pory"
 	.string "winter. That's my policy.$"
 # 90 "data/maps/Route3_Frlg/scripts.pory"
-
+	
 # 91 "data/maps/Route3_Frlg/scripts.pory"
-Route3_Text_RobinIntro::
-# 92 "data/maps/Route3_Frlg/scripts.pory"
-	.string "Eek!\n"
-# 93 "data/maps/Route3_Frlg/scripts.pory"
-	.string "Did you touch me?$"
-# 94 "data/maps/Route3_Frlg/scripts.pory"
-
-# 95 "data/maps/Route3_Frlg/scripts.pory"
-Route3_Text_RobinDefeat::
-# 96 "data/maps/Route3_Frlg/scripts.pory"
-	.string "That's it?$"
-# 97 "data/maps/Route3_Frlg/scripts.pory"
-
-# 98 "data/maps/Route3_Frlg/scripts.pory"
-Route3_Text_RobinPostBattle::
-# 99 "data/maps/Route3_Frlg/scripts.pory"
-	.string "ROUTE 4 is at the foot of\n"
-# 100 "data/maps/Route3_Frlg/scripts.pory"
-	.string "MT. MOON.$"
-# 101 "data/maps/Route3_Frlg/scripts.pory"
-
-# 102 "data/maps/Route3_Frlg/scripts.pory"
 Route3_Text_RouteSign::
-# 103 "data/maps/Route3_Frlg/scripts.pory"
+# 92 "data/maps/Route3_Frlg/scripts.pory"
 	.string "ROUTE 3\n"
-# 104 "data/maps/Route3_Frlg/scripts.pory"
+# 93 "data/maps/Route3_Frlg/scripts.pory"
 	.string "MT. MOON AHEAD$"

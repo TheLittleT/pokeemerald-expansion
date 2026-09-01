@@ -27,10 +27,6 @@ Route3_Text_JamesRematchIntro::
 	.string "I'll battle you with the POKéMON\n"
 	.string "I started raising.$"
 
-Route3_Text_RobinRematchIntro::
-	.string "Eek!\n"
-	.string "Did you push me?$"
-
 Route4_Text_CrissyRematchIntro::
 	.string "I always catch mushroom POKéMON\n"
 	.string "on MT. MOON.$"

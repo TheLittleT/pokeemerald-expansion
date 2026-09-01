@@ -87,18 +87,7 @@ Route3_Text_CalvinDefeat::
 Route3_Text_CalvinPostBattle::
 	.string "I always wear shorts, even in\n"
 	.string "winter. That's my policy.$"
-
-Route3_Text_RobinIntro::
-	.string "Eek!\n"
-	.string "Did you touch me?$"
-
-Route3_Text_RobinDefeat::
-	.string "That's it?$"
-
-Route3_Text_RobinPostBattle::
-	.string "ROUTE 4 is at the foot of\n"
-	.string "MT. MOON.$"
-
+	
 Route3_Text_RouteSign::
 	.string "ROUTE 3\n"
 	.string "MT. MOON AHEAD$"

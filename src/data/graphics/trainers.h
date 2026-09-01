@@ -1229,7 +1229,7 @@ const struct TrainerPicInfo gTrainerPicInfo[TRAINER_PIC_COUNT] =
     {
         .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_PainterFrlg, gTrainerPalette_PainterFrlg),
     },
-    [TRAINER_PIC_CLOWN_FRLG] =
+    [TRAINER_PIC_CLOWN] =
     {
         .frontPic = TRAINER_FRONT_PIC(gTrainerFrontPic_Clown, gTrainerPalette_Clown),
     },

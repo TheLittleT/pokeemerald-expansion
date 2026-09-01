@@ -22,7 +22,7 @@
 #define TRAINER_BUG_CATCHER_SAMMY                  16
 #define TRAINER_BUG_CATCHER_COLTON                 17
 #define TRAINER_BUG_CATCHER_GREG                   18
-#define TRAINER_FISHERMAN_JAMES                  19
+#define TRAINER_FISHERMAN_JAMES                    19
 #define TRAINER_BUG_CATCHER_KENT                   20
 #define TRAINER_BUG_CATCHER_ROBBY                  21
 #define TRAINER_BUG_CATCHER_CALE                   22
@@ -32,7 +32,7 @@
 #define TRAINER_BUG_CATCHER_CONNER                 26
 #define TRAINER_LASS_JANICE                        27
 #define TRAINER_LASS_SALLY                         28
-#define TRAINER_LASS_ROBIN                         29
+#define TRAINER_AROMA_LADY_JEANNE                  29
 #define TRAINER_LASS_CRISSY                        30
 #define TRAINER_LASS_MIRIAM                        31
 #define TRAINER_LASS_IRIS                          32

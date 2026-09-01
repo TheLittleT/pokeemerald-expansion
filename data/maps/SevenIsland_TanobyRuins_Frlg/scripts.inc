@@ -131,6 +131,16 @@ FlowerGarden_EventScript_JoannaBattle::
 	end
 
 
+FlowerGarden_EventScript_JeanneBattle::
+# 99 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	trainerbattle_single TRAINER_AROMA_LADY_JEANNE, FlowerGarden_Text_JeanneIntro, FlowerGarden_Text_JeanneDefeat
+# 100 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	msgbox FlowerGarden_Text_JeannePostBattle, MSGBOX_AUTOCLOSE
+# 101 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	waitmessage
+	end
+
+
 FlowerGarden_Text_MaryIntro::
 # 58 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
 	.string "With my partner$"
@@ -154,3 +164,16 @@ FlowerGarden_Text_JoannaDefeat::
 FlowerGarden_Text_JoannaPostBattle::
 # 79 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
 	.string "Sandwiches$"
+
+FlowerGarden_Text_JeanneIntro::
+# 88 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	.string "HEY, no stepping on the flowers$"
+
+FlowerGarden_Text_JeanneDefeat::
+# 91 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	.string "I'm not stepping on the flowers/n"
+	.string "You are!$"
+
+FlowerGarden_Text_JeannePostBattle::
+# 95 "data/maps/SevenIsland_TanobyRuins_Frlg/scripts.pory"
+	.string "I'm not a Hypocrite!$"
